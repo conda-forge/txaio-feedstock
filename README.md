@@ -14,12 +14,15 @@ Summary: Compatibility API between asyncio/Twisted/Trollius
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/txaio-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/txaio-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/txaio-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/txaio-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/txaio/badges/version.svg)](https://anaconda.org/conda-forge/txaio)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/txaio/badges/downloads.svg)](https://anaconda.org/conda-forge/txaio)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-txaio-green.svg)](https://anaconda.org/conda-forge/txaio) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/txaio.svg)](https://anaconda.org/conda-forge/txaio) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/txaio.svg)](https://anaconda.org/conda-forge/txaio) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/txaio.svg)](https://anaconda.org/conda-forge/txaio) |
 
 Installing txaio
 ================
