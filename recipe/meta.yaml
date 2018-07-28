@@ -1,6 +1,6 @@
 {% set name = "txaio" %}
-{% set version = "2.10.0" %}
-{% set sha256 = "4797f9f6a9866fe887c96abc0110a226dd5744c894dc3630870542597ad30853" %}
+{% set version = "18.7.1" %}
+{% set sha256 = "701de939e90bb80f7e085357081552437526752199def5541dddfc34c0b0593f" %}
 
 package:
   name: {{ name|lower }}
@@ -13,11 +13,12 @@ source:
 build:
   noarch: python
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .  --verbose
 
 requirements:
-  build:
+  host:
     - python
+    - pip
     - setuptools
   run:
     - python
