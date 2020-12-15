@@ -5,11 +5,13 @@ Home: https://github.com/crossbario/txaio
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/txaio-feedstock/blob/master/LICENSE.txt)
 
 Summary: Compatibility API between asyncio/Twisted/Trollius
 
+Development: https://github.com/crossbario/txaio
 
+Documentation: http://txaio.readthedocs.io/
 
 Current build status
 ====================
