@@ -1,6 +1,6 @@
 {% set name = "txaio" %}
-{% set version = "20.3.1" %}
-{% set sha256 = "e7a4a4db3d818975ed16ae1b90f53c6621e0075618709e88291ad5a41924e38f" %}
+{% set version = "20.4.1" %}
+{% set sha256 = "17938f2bca4a9cabce61346758e482ca4e600160cbc28e861493eac74a19539d" %}
 
 package:
   name: {{ name|lower }}
@@ -19,10 +19,8 @@ requirements:
   host:
     - python >=3.5
     - pip
-    - setuptools
   run:
     - python >=3.5
-    - six
 
 test:
   imports:
