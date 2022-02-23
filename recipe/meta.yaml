@@ -1,6 +1,6 @@
 {% set name = "txaio" %}
-{% set version = "21.2.1" %}
-{% set sha256 = "7d6f89745680233f1c4db9ddb748df5e88d2a7a37962be174c0fd04c8dba1dc8" %}
+{% set version = "22.2.1" %}
+{% set sha256 = "2e4582b70f04b2345908254684a984206c0d9b50e3074a24a4c55aba21d24d01" %}
 
 package:
   name: {{ name|lower }}
