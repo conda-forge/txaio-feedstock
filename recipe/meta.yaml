@@ -1,6 +1,5 @@
 {% set name = "txaio" %}
 {% set version = "23.1.1" %}
-{% set sha256 = "f9a9216e976e5e3246dfd112ad7ad55ca915606b60b84a757ac769bd404ff704" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: f9a9216e976e5e3246dfd112ad7ad55ca915606b60b84a757ac769bd404ff704
 
 build:
   noarch: python
@@ -19,6 +18,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
+    - setuptools
   run:
     - python >={{ python_min }}
 
