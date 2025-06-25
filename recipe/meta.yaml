@@ -1,5 +1,5 @@
 {% set name = "txaio" %}
-{% set version = "23.1.1" %}
+{% set version = "23.6.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f9a9216e976e5e3246dfd112ad7ad55ca915606b60b84a757ac769bd404ff704
+  sha256: 2e040bc849cb57a0abd2ec3dec78d540c474bcf6de0634e788764741c04aab93
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
