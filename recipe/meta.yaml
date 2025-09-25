@@ -1,5 +1,5 @@
 {% set name = "txaio" %}
-{% set version = "25.6.1" %}
+{% set version = "25.9.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d8c03dca823515c9bca920df33504923ae54f2dabf476cc5a9ed5cc1691ed687
+  sha256: e42004a077c02eb5819ff004a4989e49db113836708430d59cb13d31bd309099
 
 build:
   noarch: python
