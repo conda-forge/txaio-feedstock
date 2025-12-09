@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: txaio
-  version: "25.12.1"
+  version: "25.12.2"
   python_min: "3.11"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: f0e83ffaf80a9b91bd710075cbc2bb71e879f8aa061b09f6e9dc122343dd69f2
+  sha256: 9f232c21e12aa1ff52690e365b5a0ecfd42cc27a6ec86e1b92ece88f763f4b78
 
 build:
   number: 0
@@ -22,7 +22,7 @@ requirements:
   host:
     - python ${{ python_min }}.*
     - pip
-    - setuptools
+    - hatchling
   run:
     - python >=${{ python_min }}
   run_constraints:
