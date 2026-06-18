@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: txaio
-  version: "25.12.2"
+  version: "26.6.1"
   python_min: "3.11"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 9f232c21e12aa1ff52690e365b5a0ecfd42cc27a6ec86e1b92ece88f763f4b78
+  sha256: 3ee900b2331c93457530fddbccc1a320c4e2d7ac8f9073d01c3fbe87762ccb35
 
 build:
   number: 0
